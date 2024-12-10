@@ -1,0 +1,32 @@
+@import url(variables.css);
+
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body{
+    background-color: var(--color-4);
+
+    width: 539px;
+    height: 589px;
+    background: red;
+    position: absolute;
+    top: 115px;
+    left: 100px; 
+}
+.row_1 div{
+    width: 100%;
+    margin-top: 28px;
+    /* backgound: gren; */
+}
+.row_1 div img{
+    width: 70px;
+    position: relative;
+    margin-left: -25px;
+    left: 25px;
+    /* width: 50px; */
+    /* position: absolute; */
+}
+
